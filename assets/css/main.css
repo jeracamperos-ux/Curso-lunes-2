@@ -23,24 +23,36 @@ ul{
 a{
     text-decoration: none;
 }
-.navbar-list{
+.navbar{
     display: flex;
     /*background-color: #061E29; fondo menu*/
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
+
+.navbar-list{
+    display: flex;
+    gap: 20px;
+}
 .navbar-list li{
     border-right: 1px solid aqua;
+
 }
 .navbar-list a{
-    display: block;
+   /* display: block;*/
     font-size: 16px;
     color: var(--white-font);/*color de letras*/
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 0.5rem;
     
 }
+
 .navbar-list a:hover{
     color: aqua;/*color mouse por arriba*/
+}
+
+.logo{
+    width: 250px;
 }
 .quienes-somos{
     display: grid;
