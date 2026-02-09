@@ -35,10 +35,11 @@ a{
     display: flex;
     gap: 20px;
 }
-.navbar-list li{
-    border-right: 1px solid aqua;
 
-}
+/*.navbar-list li{
+    border-right: 1px solid aqua;
+}*/
+
 .navbar-list a{
    /* display: block;*/
     font-size: 16px;
@@ -57,11 +58,18 @@ a{
 .quienes-somos{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px; /*para separar textos e imagenes*/
     color: var(--white-font);
-    padding: 80px;
+}
+.padding-50{
+    padding:80px 50px 50px 60px;
+} 
+
+.padding-80{
+    padding: 80px 60px 30px 50px;
 }
 .img-responsive{
-    width: 600px;/*unidades absolutas*/
+    width: 600px;/*unidades absolutas, tamano fijo*/
     border: 1px solid white;
     border-radius: 15px;
 }
@@ -69,4 +77,12 @@ a{
     color: aqua; /*color de la tipografia*/
     font-size: 36px; /*tamanio de la fuente*/
     font-weight: 800;/*peso, es decir que tan gordita es*/
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.center{text-align: center;
 }
