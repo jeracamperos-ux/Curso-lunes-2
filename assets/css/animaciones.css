@@ -1,0 +1,113 @@
+/*.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: box;
+    animation-duration: 6s; /*duracion*/
+    /*animation-iteration-count: infinite;/*cuantas veces deseo que se repita
+    animation-delay: 1s; /*retardo
+    position: relative;}/*
+
+/*@keyframes box {
+    from{background-color: black;}
+    to{background-color: blueviolet;}
+}
+*/
+
+/*@keyframes box {
+    0%{background-color: black;}
+    25%{background-color: blue;}
+    15%{background-color: brown;}
+    25%{background-color: green;}
+    25%{background-color: white;}
+    10%{background-color: blueviolet;}
+}*/
+
+/*@keyframes box {
+    0%{background-color: black; left: 0; top: 0;}
+    25%{background-color: blue; left: 400px; top: 0;}
+    50%{background-color: brown;left: 400px; top: 400px;}
+    75%{background-color: green;left: 0; top: 400px;}
+    100%{background-color: white; left: 0; top: 0;} 
+} */
+
+
+@keyframes box-1 {
+    0%{color: red; left: 0px; top: 0px;}
+    100%{color: red; left: 400px; top: 0px;}
+ 
+}
+
+.box-1{
+    width: 50px;
+    height: 50px;
+    color:  red;
+    animation-name: box-1;
+    animation-duration: 10s; /*duracion*/
+    /*animation-iteration-count: infinite;/*cuantas veces deseo que se repita*/
+    animation-delay: 1s; /*retardo*/
+    position: relative;
+    margin: 20px;
+    left: 5px;
+    font-size: 120%;
+}
+
+@keyframes box-2 {
+    0% {color: blueviolet; left: 0px; top: 0px;}
+    100% {color: blueviolet; left: 500px; top: 0px;}
+    
+}
+
+.box-2{
+    width: 50px;
+    height: 50px;
+    color: blueviolet;
+    animation-name: box-2;
+    animation-duration: 10s; /*duracion*/
+    /*animation-iteration-count: infinite;/*cuantas veces deseo que se repita*/
+    animation-delay: 1s; /*retardo*/
+    position: relative;
+    margin: 20px;
+    left: 5px;
+    font-size: 120%;
+}
+
+@keyframes box-3 {
+    0% {color: chocolate; left: 0px; top: 0px;}
+    100% {color: chocolate; left: 900px; top: 0px;}
+
+}
+
+.box-3{
+    width: 50px;
+    height: 50px;
+    color: chocolate;
+    animation-name: box-3;
+    animation-duration: 10s; /*duracion*/
+    /*animation-iteration-count: infinite;/*cuantas veces deseo que se repita*/
+    animation-delay: 1s; /*retardo*/
+    position: relative;
+    margin: 20px;
+    left: 5px;
+    font-size: 120%;
+}
+
+@keyframes box-4 {
+    0% {color: darkolivegreen; left: 0px; top: 0px;}
+    100% {color: darkolivegreen; left: 600px; top: 0px;}
+}
+
+.box-4{
+    width: 50px;
+    height: 50px;
+    color: darkolivegreen;
+    animation-name: box-4;
+    animation-duration: 10s; /*duracion*/
+    /*animation-iteration-count: infinite;/*cuantas veces deseo que se repita*/
+    animation-delay: 1s; /*retardo*/
+    position: relative;
+    margin: 20px;
+    left: 5px;
+    font-size: 120%;
+}
+

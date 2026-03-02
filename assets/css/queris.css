@@ -1,0 +1,19 @@
+@media  screen and (max-width: 480px) {
+    .quienes-somos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.img-responsive{
+    width: 100%; /*100% !import; es para que se centre obligatoriamente*/
+} 
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 40px;
+}
+
+}
