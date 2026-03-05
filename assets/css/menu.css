@@ -27,3 +27,7 @@
 .logo{
     width: 250px;
 }
+
+.w3-content{
+    max-width: 100% !important;
+}

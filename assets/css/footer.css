@@ -9,7 +9,7 @@
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20p;
+    gap: 20px;
     padding: 0px 40px;
 }
 
@@ -29,6 +29,6 @@
 
 .copyright{
     background-color: var(--black);
-    padding: 10px 30 px;
+    padding: 10px 30px;
     font-size: 10px;
 }
