@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Tailwind</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    </head>
+    <body>
+  <h1 class="text-3xl font-bold underline text-clifford">
+      Hello world!
+    </h1>
+    <div class="bg-green-500 w-64 p-8">
+        <h2 class="text-purple-900 dark:text-sky-400">Aprendiendo Tailwind</h2>
+    </div>
+    <div class="flex flex-row-reverse gap-10 text-purple-600">
+        <div class="basis-64 p-8 bg-green-300">col 1</div>
+        <div class="basis-64 p-8 bg-green-300">col 2</div>
+        <div class="basis-128 p-8 bg-green-300">col 3</div>
+    </div>
+
+     <div class="flex flex-col w-xs gap-10 text-purple-600">
+        <div class="p-8 bg-green-300">col 1</div>
+        <div class="p-8 bg-green-300">col 2</div>
+        <div class="p-8 bg-green-300">col 3</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-7">
+        <div class="bg-[url(/assets/images/equipo.jpg)] bg-bottom-left p-8">1</div>
+        <div class="h-14 bg-linear-65 from-purple-500 to-pink-500">2</div>
+        <div class="bg-purple-700">3</div>
+        <div class="bg-purple-700 col-span-2">4</div>
+        <div class="bg-purple-700 rounded-lg">5</div>
+        <div class="bg-purple-700">6</div>
+        <div class="bg-purple-700 col-span-2">7</div>
+        <div class="bg-purple-700 col-span-2">8</div>
+        <div class="bg-purple-700">9</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4">
+        <div class="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%"></div>
+        <div class="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%"></div>
+        <div class="size-18 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+    </div>
+    </body>
+</html>
