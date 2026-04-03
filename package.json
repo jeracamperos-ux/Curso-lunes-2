@@ -1,0 +1,16 @@
+{
+  "name": "proyecto_web_jeramy",
+  "version": "1.0.0",
+  "description": "Proyecto con Tailwind CSS v4",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/style.css -o ./assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/cli": "^4.0.0"
+  }
+}
