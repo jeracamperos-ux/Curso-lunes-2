@@ -1,0 +1,11 @@
+.servicios-container{
+    background-color: var(--secundary-color);
+    padding: 80px 30px;
+    color: var(--gray-dark);
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
